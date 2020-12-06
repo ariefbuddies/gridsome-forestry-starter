@@ -6,7 +6,16 @@
     </footer>
 </template>
 
-<script>
+<script>import Vue from 'vue';
+import App from './App';
+import VueSplide from '@splidejs/vue-splide';
+
+Vue.use( VueSplide );
+
+new Vue( {
+  el    : '#app',
+  render: h => h( App ),
+} );
 export default {
     data() {
         return {
