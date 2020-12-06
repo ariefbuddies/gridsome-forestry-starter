@@ -6,7 +6,7 @@
     </footer>
 </template>
 
-<script>import Vue from 'vue';
+import Vue from 'vue';
 import App from './App';
 import VueSplide from '@splidejs/vue-splide';
 
@@ -16,6 +16,7 @@ new Vue( {
   el    : '#app',
   render: h => h( App ),
 } );
+<script>
 export default {
     data() {
         return {
